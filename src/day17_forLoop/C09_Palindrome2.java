@@ -5,6 +5,8 @@ public class C09_Palindrome2 {
         // Soru 9 ) Interview Question Kullanicidan bir String isteyin.
         // Kullanicinin girdigi String’in palindrome olup olmadigini kontrol eden
         // bir method olusturun.
+
+
         String input= "Madam";
         String terstenInput=tersineCevir(input);
         System.out.println("Girdiginiz kelimenin tersten yazilisi : " + terstenInput);

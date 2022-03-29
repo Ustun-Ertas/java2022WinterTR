@@ -19,11 +19,11 @@ public class UcakBiletiHesaplama {
 
         if (km>0 && yas>0 && (tip==1 || tip==2 )) {
             normalFiyat = km * 0.10;
-            if (yas < 15) {
+            if (yas < 12) {
                 yasindirimi = normalFiyat * 0.5; //burda indirim oranini hesapliyorum
-            } else if (yas >= 15 && yas <= 70) {
+            } else if (yas >= 12 && yas <= 24) {
                 yasindirimi = normalFiyat * 0.10;
-            } else if (yas >= 70) {
+            } else if (yas >= 65) {
                 yasindirimi = normalFiyat * 0.30;
             } else {
                 yasindirimi = 0;
@@ -33,7 +33,7 @@ public class UcakBiletiHesaplama {
                 tipIndirimi = normalFiyat * 0.20;
                 normalFiyat = (normalFiyat - tipIndirimi) * 2;
             }
-            System.out.println("Bilet Tutari: " + normalFiyat + "PLN");
+            System.out.println("Bilet Tutari: " + normalFiyat + "$");
         }else {
             System.out.println("Girdiginiz degerler eksik veya yanlis lutfen tekrar deneyiniz !");
         }
