@@ -15,7 +15,7 @@ public class C05_StringBuilder {
         StringBuilder sb1= new StringBuilder("Ali Can");
         StringBuilder sb2= new StringBuilder("Ali Can");
         String str= "Ali Can";
-        System.out.println(sb1.compareTo(sb2)); // 0
+       // System.out.println(sb1.compareTo(sb2)); // 0
         // System.out.println(sb1.compareTo(str));
     }
 }
