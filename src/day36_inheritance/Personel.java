@@ -10,8 +10,8 @@ public class Personel {
     public int persNo;
     protected String isim;
     protected String soyisim;
-    protected String adres;
-    protected String tel;
+    protected String adres ="Adres Girilmedi";
+    protected String tel ="Telefon Girilmedi";
 
 
 }
