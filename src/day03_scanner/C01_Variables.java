@@ -40,9 +40,5 @@ public class C01_Variables {
         System.out.println(sayi6);
 
 
-
-
-
-
     }
 }

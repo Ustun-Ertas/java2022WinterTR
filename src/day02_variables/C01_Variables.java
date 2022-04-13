@@ -8,7 +8,7 @@ public class C01_Variables {
         //ornegin bir sehrin nufusundan bahsediyorsak
         // variable mizin data turu string , boolean , char veya doublu olamaz
         //geriye kalan tamsayi turlerden sehrin nufusu icine alabilecek buyuklukte bir data duru secmeliyiz
-        //biz kurs boyunca genelde tam sailar icin int, ondalikli sayilar icin daouble kullanacagiz
+        //biz kurs boyunca genelde tam sayilar icin int, ondalikli sayilar icin daouble kullanacagiz
 
         System.out.println("Hello World yazdiran Javayi halleder");
 
