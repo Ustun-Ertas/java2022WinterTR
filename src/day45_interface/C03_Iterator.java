@@ -26,6 +26,7 @@ public class C03_Iterator {
 
         }
         System.out.println(liste);
+        Iterator itr = liste.iterator();
 
 
     }
