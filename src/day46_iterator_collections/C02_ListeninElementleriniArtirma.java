@@ -3,6 +3,7 @@ package day46_iterator_collections;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
+import java.util.Objects;
 
 public class C02_ListeninElementleriniArtirma {
 
@@ -21,7 +22,15 @@ public class C02_ListeninElementleriniArtirma {
          */
         Iterator itr = liste.iterator();
         while(itr.hasNext()){ // yaninda element oldugu muddetce calisacak
-            System.out.println(itr.next());
+
+
+            Object sayi= itr.next();
+
+
+
+
+
+
         }
     }
 }
