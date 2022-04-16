@@ -25,5 +25,14 @@ public class C04_IstenenElemanlariSilme {
 
         ListIterator itr=liste.listIterator();
 
+        while (itr.hasNext()){
+            Object sayi=itr.next();
+            if ((Integer)sayi<20 || (Integer)sayi>40){
+                itr.remove();
+            }
+        }
+        System.out.println(liste);
     }
 }
+
+

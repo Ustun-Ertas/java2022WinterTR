@@ -17,20 +17,15 @@ public class C02_ListeninElementleriniArtirma {
         liste.add(6);
         liste.add(9);
         System.out.println(liste); // [5, 7, 8, 6, 9]
+
         /* listenin tum elementlerini bize getirmesi icin
            iterator'un hasNext() ve next() methodlarini kullanacagiz
-         */
+
+        */
+
         Iterator itr = liste.iterator();
         while(itr.hasNext()){ // yaninda element oldugu muddetce calisacak
-
-
-            Object sayi= itr.next();
-
-
-
-
-
-
+            System.out.println(itr.next());
         }
     }
 }
