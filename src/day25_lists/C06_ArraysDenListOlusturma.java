@@ -16,4 +16,5 @@ public class C06_ArraysDenListOlusturma {
         List<String>arraydenList = Arrays.asList(arr);
         arraydenList.add("L");
     }
+
 }
