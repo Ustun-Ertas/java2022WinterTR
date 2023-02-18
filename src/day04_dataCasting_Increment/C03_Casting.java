@@ -22,5 +22,7 @@ public class C03_Casting {
         sayi1= sayi1/sayi2;
 
 
+
+
     }
 }
