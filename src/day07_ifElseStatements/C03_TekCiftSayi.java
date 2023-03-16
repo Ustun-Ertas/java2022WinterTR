@@ -25,13 +25,13 @@ public class C03_TekCiftSayi {
 
         //=====if else ile cozum====
 
-        //if (sayi % 2 == 0) {
+        if (sayi % 2 == 0) {
 
-        //    System.out.println("girdiginiz sayi cift sayidir");
-       // } else {
+           System.out.println("girdiginiz sayi cift sayidir");
+       } else {
 
-          //  System.out.println("girdiginiz sayi tek sayidir");
-       // }
+           System.out.println("girdiginiz sayi tek sayidir");
+        }
 
     }
 }
